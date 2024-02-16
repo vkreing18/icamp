@@ -1,0 +1,287 @@
+.footerMain {
+  overflow: hidden;
+  position: relative;
+  background-color: white;
+
+}
+
+.footerImgs {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  margin-top: 8vh;
+}
+
+.imgs {
+  position: absolute;
+  top: 0px;
+}
+
+.column1 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  font-family: Inter;
+  font-size: 31px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  width: 100%;
+  height: 30%;
+  z-index: 19;
+}
+
+.column1 p {
+  margin-top: 8%;
+}
+
+.line {
+  border-bottom: 1px solid #3D414C;
+  width: 100%;
+  margin-top: 6.9%;
+  z-index: 10;
+}
+
+.footerCircle1 {
+  position: relative;
+  margin-top: 25px;
+  float: left;
+  z-index: 100;
+  color: white;
+}
+
+.footerCircle2 {
+  float: right;
+  margin-top: 32px;
+  z-index: 100;
+  position: relative;
+}
+
+.footerContain {
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  padding: 10px;
+}
+
+.footerContain1 {
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  gap: 40px;
+  color: var(--Gray-200, #B6B8BC);
+  font-family: Inter;
+  font-size: 12.5px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.444px;
+  margin-left: 90px;
+}
+
+.footerC2 {
+  z-index: 10;
+  width: 45%;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 40px;
+}
+
+.footerContain2 {
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footerContain2 h5 {
+  color: var(--Shades-White, #FFF);
+  font-family: Inter;
+  font-size: 12.5px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 19.444px;
+  z-index: 10;
+}
+
+.footerContain2 h6 {
+  z-index: 10;
+  color: var(--Gray-200, #B6B8BC);
+  font-family: Inter;
+  font-size: 12.5px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.444px;
+}
+
+.divider2 {
+  z-index: 10;
+  width: 62%;
+  margin-left: 60px;
+  border-bottom: 1px solid #3D414C;
+  position: relative;
+}
+
+.footerCopy {
+  z-index: 10;
+  color: var(--Gray-200, #B6B8BC);
+  font-family: Inter;
+  font-size: 12.5px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.444px;
+  margin-top: 30px;
+  margin-left: 210px;
+  position: relative;
+  display: flex;
+}
+
+.imgWrapper {
+  z-index: 10;
+  position: relative;
+  width: 110px;
+  height: 25px;
+}
+
+@media screen and (min-width:1540px) {
+  .circles {
+    position: relative;
+  }
+
+  .column1 {
+    font-size: 70px;
+  }
+
+  .footerCircle1 {
+    position: absolute;
+    top: 60px;
+  }
+
+  .footerCircle2 {
+    position: absolute;
+    top: 25px;
+    right: -39px;
+  }
+
+  .column2 {
+    margin-left: 50px;
+  }
+
+  .footerCopy {
+    margin-left: 100px;
+    margin-bottom: 19px;
+    font-size: 15px;
+  }
+
+  .imgWrapper {
+    position: relative;
+    width: 130px;
+    height: 30px;
+  }
+
+  .footerContain2 h6 {
+    font-size: 15.5px;
+  }
+
+  .footerContain2 h5 {
+    font-size: 15.5px;
+  }
+
+  .footerC2 {
+    margin-right: 80px;
+  }
+
+  .line {
+    margin-top: 16%;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .footerMain {
+    height: 102vh;
+    background-image: url('../../assests/Union.png');
+    background-size: 100%;
+  }
+
+  .column1 {
+    /* border: 1px solid red; */
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+    font-weight: 500;
+  }
+
+  .line {
+    padding: 10px;
+    ;
+  }
+
+  .footerCircle2 {
+    margin-top: 500px;
+    margin-right: -15px;
+  }
+
+  .footerContain {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .footerContain1 {
+    position: absolute;
+    width: 90%;
+    padding: 20px;
+    top: 240px;
+    left: -65px;
+    line-height: 25px;
+    font-size: 18px;
+    /* border: 1px solid red; */
+  }
+
+
+  .footerC2 {
+    /* border: 1px solid red; */
+    width: 80vw;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr); 
+    gap: 20px;
+    margin-top: 200px;
+    margin-left:6.5vw;
+    padding: 20px;
+  }
+
+  .footerContain2{
+    line-height: 30px;
+  }
+
+  .column3 {
+    position: absolute;
+    top: 800px;
+    left: 40px;
+  }
+
+  .divider2 {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 35px;
+  }
+
+  .footerCopy {
+    flex-direction: column;
+    margin-top: 20px;
+    text-align: left;
+    /* border: 1px solid blue; */
+    width: 80vw;
+    margin-left:-16px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+  }
+}

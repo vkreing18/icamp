@@ -1,0 +1,417 @@
+.slider {
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.title {
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 10.417px;
+    margin-top: 53px;
+    margin-bottom: 53px;
+}
+
+.text2 {
+    color: #38C682;
+    font-family: Inter;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 53px;
+    letter-spacing: -0.02em;
+    text-align: center;
+}
+
+.text1 {
+    font-family: Inter;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 53px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: black;
+}
+
+.blocks {
+    height: 70vh;
+    width: 86vw;
+    display: flex;
+    border-radius: 10px;
+    gap: 10px;
+    overflow: hidden;
+}
+
+.smlBlock {
+    display: flex;
+    flex-direction: column;
+    width: 17vw;
+    height: 70vh;
+    background: #F8F8F8;
+    align-items: left;
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+
+
+.smlBlockContains {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin-top: 10%;
+}
+
+.smlContains {
+    align-items: left;
+    padding: 15px;
+    margin-top: 2%;
+}
+
+.smlBlockTitle {
+    color: #606060;
+    font-size: 32px;
+}
+
+.smlBlockContains1 {
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #737373;
+    margin-top: 6.5%;
+    width: 175px;
+}
+
+.smlblockContains2 {
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #626262;
+    margin-top: 14%;
+}
+
+.smlblockContains3 {
+    margin-top: 30%;
+}
+
+.smlBlockButton {
+    background: #F8F8F8;
+    border: none;
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+    font-size: 17.69px;
+    color: #00796D;
+    cursor: pointer;
+}
+
+.arrowRight {
+    margin-top: 2%;
+    position: relative;
+    height: 18px;
+    width: 18px;
+}
+
+.arrowUpper {
+    margin-top: 2%;
+    position: relative;
+    height: 19px;
+    width: 19px;
+}
+
+.bigBlock {
+    width: 35vw;
+    height: 70vh;
+    background-color: #FCE8EF;
+    position: relative;
+    overflow: hidden;
+ transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.ellipse {
+    position: absolute;
+    border-radius: 100%;
+    background-color: white;
+    height: 450px;
+    width: 450px;
+    top: 20%;
+    left: 50%;
+}
+
+.bigBlockContain {
+    padding: 10px;
+    position: relative;
+    color: black;
+}
+
+.smlBlockContain {
+    padding: 10px;
+}
+
+.blockLogo {
+    position: relative;
+    height: 74px;
+    width: 74px;
+    margin-top: 10px;
+    margin-left: 7px;
+    border-radius: 100%;
+}
+
+.smlLogo {
+    position: relative;
+    height: 74px;
+    width: 74px;
+    margin-top: 10px;
+    margin-left: 7px;
+    border-radius: 100%;
+}
+
+
+.bigBlockTitle {
+    color: #00796D;
+    font-size: 32px;
+    margin-left: 10px;
+    margin-top: 2%;
+}
+
+.bigBlockContains {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin-top: 1%;
+}
+
+.bigBlockContains1 {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 22vw;
+    margin-top: 5%;
+}
+
+.bigblockContains2 {
+    margin-top: 12%;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0em;
+    text-align: left;
+    line-height: 20px;
+}
+
+.bigblockContains3 {
+    margin-top: 10%;
+}
+
+.bigBlockButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 126px;
+    height: 42px;
+    padding: 13.89px 16.67px 13.89px 22.22px;
+    border-radius: 69.44px;
+    gap: 10px;
+    background: linear-gradient(279.69deg, #00796D 0%, #0DC99E 100%);
+    border: none;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.arrow{
+    display: none;
+}
+
+@media screen and (max-width:886px) {
+    .slider {
+        padding-top: 50px;
+        gap: 20px;
+        overflow: hidden;
+    }
+
+    .title {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 04vh;
+    }
+
+    .blocks {
+        width: 100vw;
+        height: 94vh;
+        flex-direction: column;
+        padding: 8px;
+        margin-top:4%;
+        margin-left: 4%;
+    }
+
+    .bigBlock {
+        width: 92vw;
+        height: 40vh;
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 9.6px;
+        background: #FCE8EF;
+        /* border: 1px solid  red; */
+    }
+
+    .blockLogo{
+        height: 53px;
+        width: 53px;
+    }
+
+    .smlBlock {
+        /* margin-top: 20%; */
+        width: 92vw;
+        height: 10vh;
+        display: flex;
+        border-radius: 9.6px;
+        background: #F8F8F8;
+        /* border: 2px solid blue; */
+        position: relative;
+
+    }
+
+    .smlBlockTitle {
+        height: 11vh;
+        width: 50vw;
+    }
+    .bigBlockTitle{
+        font-family: Poppins;
+        margin-top: 0vh;
+        margin-left: 15vw;
+        /* border: 1px solid red; */
+        font-weight:500;
+        width: 85%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .smlBlockContains1,
+    .smlblockContains2,
+    .smlBlockButton p {
+        display: none;
+        height: 0px;
+        width: 0px;
+        border: 2px solid grey;
+    }
+
+    .smlLogo {
+        width: 62.15px;
+        height: 62.15px;
+        /* border: 2px solid grey; */
+        position: absolute;
+        top: 0;
+    }
+
+    .smlContains {
+        /* border: 2px solid red; */
+        position: absolute;
+        top: 0;
+        display: flex;
+        width: 65vw;
+        margin-left: 20vw;
+        height: 8vh;
+        font-size: 23px;
+        font-family: Poppins;
+    }
+
+    .smlblockContains3 {
+        /* border: 2px solid blue; */
+        margin-top: -3vh;
+    }
+
+    .arrowRight {
+        position: absolute;
+        height: 20px;
+        width: 20px;
+        margin-left: 22px;
+        margin-top: -10px;
+        /* border: 2px solid red; */
+    }
+     .arrowUpper{
+        height: 30px;
+        width: 20px;
+        transform: rotate(15deg);
+    } 
+
+    .ellipse {
+        position: absolute;
+        border-radius: 100%;
+        background-color: white;
+        height: 304px;
+        width: 304px;
+        top: 101px;
+        left: 204px;
+    }
+    .bigBlockContain {
+        /* border: 2px solid red; */
+        height: 100%;
+    }
+    .bigBlockContains{
+        /* border: 2px solid green; */
+        height: 100%;
+    }
+    
+    .bigblockContains2{
+        display: none;
+    }
+    
+    .bigBlockContains1 {
+        /* border: 2px solid blue; */
+        width: 100%;
+        height: 70%;
+        font-family: Poppins;
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 40px;
+        letter-spacing: 0em;
+        text-align: justified;
+    
+    }
+    .bigBlockTitle{
+        width: 80%;
+        /* border: 2px solid red; */
+        margin-left: 25%;
+    }
+    
+    .blockLogo {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .arrow{
+        position: relative;
+        height: 25px;
+        width: 25px;
+        margin-top:3%;
+        display: flex;
+    }
+    .bigBlockButton{
+        font-size: 14px; 
+    width: 130px;   }
+
+
+}
+

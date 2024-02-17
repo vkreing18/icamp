@@ -1,0 +1,23 @@
+.common_btn button{
+   background: none;
+   border: none;
+}
+.common_btn{
+    background: linear-gradient(279.69deg, #00796D 0%, #0DC99E 100%);
+    /* display: block; */
+    /* width: 100.91px;
+    height: 47px; */
+    padding: 14px 20px;
+    border-radius: 69.12px;
+    font-size: medium;
+    border: none;
+    cursor: pointer;
+    margin-right: 25px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+    
+}
